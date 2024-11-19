@@ -25,4 +25,4 @@
       command: docker push glomodo/petstore:latest
 
     - name: Run container
-      command: docker run -d --name pet1 -p 8081:8080 glomodo/petstore:latest
+      command: docker run -d --name pet2 -p 8081:8080 glomodo/petstore:latest
